@@ -1,0 +1,25 @@
+#footer{
+  background-color:#FF4166;
+  height:35pt;
+}
+#topfooter{
+  background-color:#505050;
+  height:300pt;
+
+}
+#foot{
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+
+}
+
+#footerheading{
+color:white;
+font-size: 32px;
+padding-top: 54px;
+font-family: "Avenir Next";
+font-weight: lighter;
+text-align: center;
+}
