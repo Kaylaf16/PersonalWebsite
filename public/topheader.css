@@ -1,15 +1,16 @@
-ul {
+#ulhead{
     list-style-type: none;
-    margin: 0px;
+ margin-bottom: auto;
     padding: 0;
     overflow: hidden;
-
+  border-bottom: : 0px;
     background-color: #383737;
 }
 
 li {
     float: left;
     border-right:1px ;
+    border-bottom: : 0px;
       text-decoration: none;
 }
 div #header{
@@ -30,6 +31,7 @@ li a {
     padding: 14px 16px;
     font-family: "Avenir Next";
     font-weight: lighter;
+    font-size: 22px;
     text-decoration: none;
 }
 
@@ -41,5 +43,6 @@ li a:hover:not(.active) {
 .active {
     background-color: #383737;
       text-decoration: none;
+    
 
 }
