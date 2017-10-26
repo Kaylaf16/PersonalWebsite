@@ -3,21 +3,35 @@ body{
   margin:0px;
 }
 #footer{
-  background-color:#FF4166;
-  height:35pt;
+  background-color:#E14A4A;
+  height:25pt;
+}
+.jumbotron{
+
+height:550px;
+ width:97%;
+position: absolute;
+top:45px;
+ opacity: 0.9;
+border-radius:10px;
 }
 #topfooter{
   background-color:#505050;
-  height:600pt;
- margin-top: 0px;
- padding-top: 0px;
+  height:300pt;
+  z-index: -1;
+ margin: 0px;
+ padding:0px;
 }
 
 #footerheading{
 color:white;
-font-size: 32px;
-padding-top: 200pt;
+font-size: 20px;
+padding-top: 150px;
 font-family: "Avenir Next";
 font-weight: lighter;
 text-align: center;
+}
+#midsection{
+  height:480px;
+  background-color:#E2E2E2;
 }

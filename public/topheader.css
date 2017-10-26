@@ -1,22 +1,23 @@
 #ulhead{
-    list-style-type: none;
+list-style-type: none;
  margin-bottom: auto;
-    padding: 0;
-    overflow: hidden;
-  border-bottom: : 0px;
-    background-color: #383737;
+padding: 0;
+overflow: hidden;
+border-bottom: : 0px;
+background-color: #383737;
+
 }
 
 li {
     float: left;
     border-right:1px ;
     border-bottom: : 0px;
-      text-decoration: none;
+    text-decoration: none;
 }
-div #header{
+ #header{
+
   margin-bottom: 0px;
   padding-bottom: 0px;
-
 }
 
 li:last-child {
@@ -31,7 +32,7 @@ li a {
     padding: 14px 16px;
     font-family: "Avenir Next";
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 19px;
     text-decoration: none;
 }
 
@@ -43,6 +44,6 @@ li a:hover:not(.active) {
 .active {
     background-color: #383737;
       text-decoration: none;
-    
+      color:#FF4166;
 
 }
