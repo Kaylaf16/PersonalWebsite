@@ -3,35 +3,48 @@ body{
   margin:0px;
 }
 #footer{
-  background-color:#E14A4A;
-  height:25pt;
+  background-color:#383737;
+  height:20pt;
 }
-.jumbotron{
+.jumbotron.vertical-center{
+height:90px;
+ width:40%;
+ margin-left: auto;
+ margin-right: auto;
 
-height:550px;
- width:97%;
-position: absolute;
-top:45px;
+ margin-bottom: 0px;
+ padding-bottom:0px;
  opacity: 0.9;
-border-radius:10px;
+border-radius:2px;
 }
 #topfooter{
   background-color:#505050;
   height:300pt;
-  z-index: -1;
  margin: 0px;
+margin-top: 0px;
+padding-top: 0px;
  padding:0px;
 }
 
 #footerheading{
 color:white;
 font-size: 20px;
-padding-top: 150px;
+margin-top: 0px;
 font-family: "Avenir Next";
 font-weight: lighter;
 text-align: center;
 }
 #midsection{
-  height:480px;
-  background-color:#E2E2E2;
+  display: flex;
+align-items: center;
+justify-content: center;
+  min-height:480px;
+background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  padding-bottom: 0px;
+   margin-bottom: -80px;
+  background-image:url('images/ny.jpg');
 }
