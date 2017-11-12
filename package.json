@@ -18,10 +18,14 @@
   },
   "homepage": "https://github.com/Kaylaf16/PersonalWebsite#readme",
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
     "express3-handlebars": "^0.5.2",
-    "nodemon": "^1.12.1"
+    "jquery": "^3.2.1",
+    "nodemon": "^1.12.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   }
 }
