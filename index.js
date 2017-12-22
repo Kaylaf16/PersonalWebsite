@@ -8,12 +8,15 @@ var exphbs = require('express-handlebars');
 
 app.engine('handlebars', exphbs({layoutsDir: path.join(__dirname, "views/layout"),
   partialsDir: path.join(__dirname, "views/partials"),
-  defaultLayout: 'index',
   extname: 'handlebars'}));
  app.set('view engine', 'handlebars');
 app.get('/', function (req, res) {
 
   res.render('layout/index');
+});
+app.get('/about', function (req, res) {
+
+  res.render('layout/about');
 });
 app.get('/test', function (req, res) {
 
