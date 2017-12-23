@@ -1,0 +1,98 @@
+body{
+  padding:0px;
+  margin:0px;
+  background-color: #FFF0E0;
+}
+#headerlistul{
+list-style-type: none;
+margin-top: 10px;
+}
+#header{
+  background-color:white;
+width: 100%;
+position: fixed;
+z-index: 1;
+padding-top: 0;
+margin-top: 0;
+  height:45px;
+  box-shadow:0 10px 10px rgba(182, 182, 182, 0.75);
+}
+#headerlist{
+  margin-left: 20px;
+ display: inline;
+ font-family: "Avenir Next";
+ letter-spacing: 2px;
+ font-stretch: expanded;
+ font-size: 21px;
+ font-weight: lighter;
+
+ margin-right: 10px;
+
+}
+.h1div{
+  display: flex;
+padding-top: 90px;
+    margin-bottom: 70px;
+
+}
+.linkstyle{
+  text-decoration: none;
+  color:#555555;
+}
+.linkstyle:hover{
+  text-decoration: none;
+  color:#c0c0c0;
+}
+.h1style {
+  display: inline;
+  font-family: "Avenir Next";
+  letter-spacing: 2px;
+  font-stretch: expanded;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+}
+.formcontrol{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #555555;
+color: #787878;
+opacity: .6;
+}
+#spaceholder{
+  height:200px;
+}
+.formcontrol:focus{
+  outline: none;
+  border:none;
+  border-bottom: 1px solid #000000;
+}
+.btnprimary{
+  background-color: #555555;
+  font-family: "Avenir Next";
+  letter-spacing: 2px;
+  font-stretch: expanded;
+  border-radius: 0px;
+  color:white;
+  height: 32px;
+  width:100px;
+}
+.btnprimary:hover{
+  background-color: #000000;
+}
+.btnprimary:focus{
+  background-color: #000000;
+  outline: none;
+}
+
+#content{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  height:400px;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}

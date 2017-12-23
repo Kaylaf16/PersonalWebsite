@@ -49,12 +49,13 @@ text-align: center;
 }
 #headerlist{
  display: inline;
+  margin-left: 20px;
  font-family: "Avenir Next";
  letter-spacing: 2px;
  font-stretch: expanded;
  font-size: 21px;
  font-weight: lighter;
- margin-left: 10px;
+
  margin-right: 10px;
 
 
@@ -98,7 +99,7 @@ background-attachment: fixed;
   opacity:0.9;
   padding-bottom: 0px;
    margin-bottom: -80px;
-  background-image:url('images/pc1.jpg');
+  background-image:url('images/code1.jpg');
 }
 #img1{
   height:130px;
@@ -119,7 +120,7 @@ display: block;
   color: white;
   font-family: "Avenir Next";
   font-weight: lighter;
-  margin-top: 10px;
+
 text-align: center;
 margin-bottom: 15px;
 padding-bottom: 15px;
@@ -131,14 +132,14 @@ padding-bottom: 15px;
   color: white;
   font-family: "Avenir Next";
   font-weight: lighter;
-  margin-top: 10px;
+    margin-top: 50px;
 text-align: center;
 margin-bottom: 15px;
 padding-bottom: 15px;
 }
 .elementToFadeInAndOut {
   opacity: 0;
-   animation: fadeIn 3s ease-in 1 forwards;
+   animation: fadeIn 1s ease-in 1 forwards;
 }
 @keyframes fadeIn {
   to {
