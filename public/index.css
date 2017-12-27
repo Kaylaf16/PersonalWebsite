@@ -1,12 +1,17 @@
+html{
+  overflow: hidden;
+  height: 100%;
+}
 body{
   padding:0px;
   margin:0px;
-  background-color:#000d1a;
+  overflow: auto;
+  height:100%;
 
 }
 .linkstyle{
   text-decoration: none;
-  color:#555555;
+  color:white;
 }
 .linkstyle:hover{
   text-decoration: none;
@@ -26,21 +31,26 @@ height:auto;
  margin-top: auto;
 padding-top: 20px;
 padding-left: 10px;
-
+border: 3px white solid;
 padding-right: 10px;
  padding-bottom:20px;
 
-border-radius:4px;
+
 }
 #topfooter{
-  background-color:#000d1a;
+background-color:#22313f;
   height:auto;
   opacity: 0.999;
   min-height: 250px;
   margin-bottom: 0px;
 overflow: hidden;
+border-top: 3px solid white;
 }
-
+#bottomfooter{
+  background-color:#22313f;
+    height:100px;
+    padding-top: 20px;
+}
 #footerheading{
 color:white;
 font-size: 27px;
@@ -50,24 +60,54 @@ font-weight: 200;
 text-align: center;
 }
 #headerlist{
- display: inline;
+padding: 10px;
   margin-left: 20px;
  font-family: "Avenir Next";
  letter-spacing: 2px;
  font-stretch: expanded;
- font-size: 21px;
- font-weight: 300;
-
+ font-size: 19px;
+ font-weight: 200;
+display: inline;
  margin-right: 10px;
 
+}
+#dropbtn{
+  margin-left: 45px;
+   color:white;
+   background-color: transparent;
+   border: none;
+   outline: none;
+}
+#dropbtn:focus{
+  outline:none !important;
+  border: none
+}
+#dropbtn:hover{
+  color:#67809f;
+}
+#dropbtn:active{
+
+outline: none;
+border: none;
 
 }
 #headerlistul{
 list-style-type: none;
-margin-top: 10px;
+display: none;
+
+}
+i.ion-navicon{
+  font-size: 64px;
+}
+i.ion-ios-glasses-outline{
+  font-size: 84px;
+}
+i.ion-social-google{
+  margin-left: 15px;
+  font-size: 54px;
 }
 #header{
-  background-color:#000d1a;
+
 width: 100%;
 position: fixed;
 z-index: 1;
@@ -86,7 +126,14 @@ font-weight: lighter;
 text-align: center;
 
 }
-
+i.ion-social-linkedin{
+  font-size: 54px;
+  margin-right: 15px;
+}
+i.ion-social-github{
+  font-size: 54px;
+  margin-right: 15px;
+}
 #midsection{
   display: flex;
 align-items: center;
@@ -118,6 +165,22 @@ display: block;
   padding-top: 30px;
   font-size: 25px;
 }
+#footerheading1{
+color:white;
+
+font-size: 45px;
+font-family: "Avenir Next";
+font-weight: 200;
+padding-bottom: 0;
+margin-bottom: 0;
+text-align: center;
+}
+#footerheading2{
+color:white;
+font-size: 15px;
+font-family: "Avenir Next";
+
+}
 #smallinfo{
   font-size: 18px;
   color: white;
@@ -131,11 +194,21 @@ padding-bottom: 15px;
 #smallinfo2{
   padding-left: 50px;
   padding-right: 50px;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   font-family: "Avenir Next";
   font-weight: lighter;
-    margin-top: 50px;
+    margin-top: 10px;
+text-align: center;
+margin-bottom: 15px;
+padding-bottom: 15px;
+}
+#bottominfo{
+margin-left: auto;
+margin-right: auto;
+font-size: 20px;
+color: white;
+font-weight: lighter;
 text-align: center;
 margin-bottom: 15px;
 padding-bottom: 15px;
