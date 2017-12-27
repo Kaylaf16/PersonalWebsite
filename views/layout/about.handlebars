@@ -2,7 +2,9 @@
 <html>
 <head>
   <script type="text/javascript" src="intro.js"></script>
+  <link rel="stylesheet" type="text/css" href= "index.css"/>
   <link rel="stylesheet" type="text/css" href= "about.css"/>
+    <link rel="stylesheet" type="text/css" href= "ionicons.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -17,43 +19,23 @@
 </footer>
 </body>
 <script>
-var counter=0;
-var counter1 =0;
-var counter2 =0;
-var counter3=0;
-  $("#skillid").click(showfunc);
-  $("#Expid").click(showfunc1);
-  $("#Intid").click(showfunc2);
-  $("#projectid").click(showfunc3);
-function showfunc(){
-  $("#display2").hide();
-  $("#display4").hide();
-    $("#display3").hide();
-  $("#display1").show();
-  $("#display1").animate({
-    width: (counter<1)?'+=750px':width},1100);
-    counter++;
-}
-function showfunc1(){
-  $("#display1").hide();
-  $("#display4").hide();
-    $("#display3").hide();
-  $("#display2").show();
-  $("#display2").animate({
-        width: (counter1<1)?'+=750px':width},1100);
-        counter1++;
+$("#dropbtn").hover(function(){
+  $("#headerlistul").fadeIn(1000);
+});
 
-}
-function showfunc2(){
-  $("#display1").hide();
-  $("#display4").hide();
-    $("#display2").hide();
-  $("#display3").show();
-  $("#display3").animate({
-        width: (counter2<1)?'+=750px':width},1100);
-        counter2++;
+$("#jumboid").hover(function(){
+$("#jumboid").css("background-color","white");
+$("#resumetext").css("color","black");
+$("#resumetext").css("font-weight","500");
+$(".resumelink").css("text-decoration","none");
+$(".resumelink").css("color","black");
+},function (){
+  $("#jumboid").css("background-color","transparent");
+  $("#resumetext").css("color","white");
+  $("#resumetext").css("text-decoration","none");
+});
 
-}
+
 
 </script>
 </html>
