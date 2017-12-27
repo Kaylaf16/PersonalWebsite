@@ -1,21 +1,21 @@
 body{
   padding:0px;
   margin:0px;
-  background-color: #FFF0E0;
+  background-color: #000d1a;
 }
 #headerlistul{
 list-style-type: none;
 margin-top: 10px;
 }
 #header{
-  background-color:white;
+background-color: #000d1a;
 width: 100%;
 position: fixed;
 z-index: 1;
 padding-top: 0;
 margin-top: 0;
   height:45px;
-  box-shadow:0 10px 10px rgba(182, 182, 182, 0.75);
+
 }
 #buttonid{
   background-color: #555555;

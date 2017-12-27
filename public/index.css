@@ -1,6 +1,7 @@
 body{
   padding:0px;
   margin:0px;
+  background-color:#000d1a;
 
 }
 .linkstyle{
@@ -15,35 +16,36 @@ body{
   background-color:#383737;
   height:20pt;
 }
-.jumbotron.vertical-center{
+.jumbo{
 height:auto;
  width:auto;
- background-color:#282828 ;
+ background-color:transparent ;
  margin-left: auto;
  margin-right: auto;
  margin-bottom: auto;
  margin-top: auto;
 padding-top: 20px;
 padding-left: 10px;
+
 padding-right: 10px;
  padding-bottom:20px;
- opacity: 0.8;
+
 border-radius:4px;
 }
 #topfooter{
-  background-color:	#181818;
+  background-color:#000d1a;
   height:auto;
   opacity: 0.999;
-  min-height: 350px;
+  min-height: 250px;
   margin-bottom: 0px;
 overflow: hidden;
 }
 
 #footerheading{
 color:white;
-font-size: 20px;
+font-size: 27px;
 font-family: "Avenir Next";
-font-weight: 100;
+font-weight: 200;
  letter-spacing: 3px;
 text-align: center;
 }
@@ -54,7 +56,7 @@ text-align: center;
  letter-spacing: 2px;
  font-stretch: expanded;
  font-size: 21px;
- font-weight: lighter;
+ font-weight: 300;
 
  margin-right: 10px;
 
@@ -65,24 +67,24 @@ list-style-type: none;
 margin-top: 10px;
 }
 #header{
-  background-color:white;
+  background-color:#000d1a;
 width: 100%;
 position: fixed;
 z-index: 1;
 padding-top: 0;
 margin-top: 0;
-  background-color:white;
+
   height:45px;
-  box-shadow:0 10px 10px rgba(182, 182, 182, 0.75);
+
 }
 #jumboheading{
-
-font-size: 20px;
+font-size: 30px;
 letter-spacing: 2px;
 color: white;
 font-family: "Avenir Next";
 font-weight: lighter;
 text-align: center;
+
 }
 
 #midsection{
@@ -99,7 +101,7 @@ background-attachment: fixed;
   opacity:0.9;
   padding-bottom: 0px;
    margin-bottom: -80px;
-  background-image:url('images/code1.jpg');
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/code1.jpg');
 }
 #img1{
   height:130px;
@@ -114,6 +116,7 @@ display: block;
 
 #footerheading{
   padding-top: 30px;
+  font-size: 25px;
 }
 #smallinfo{
   font-size: 18px;
