@@ -16,6 +16,13 @@ body{
   height:auto;
 padding-top: 150px;
 }
+#bottomfooter1{
+  background-color:#22313f;
+    height:150px;
+  border: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 #midinfosection2{
   display: flex;
 
