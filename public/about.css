@@ -30,6 +30,15 @@ padding-top: 150px;
   height:auto;
 padding-top: 50px;
 }
+.ion-ios-list-outline{
+  margin-right: 4px;
+}
+.ion-code-working{
+  margin-right: 4px;
+}
+.ion-briefcase{
+  margin-right: 4px;
+}
 #midinfosection3{
   display: flex;
 
