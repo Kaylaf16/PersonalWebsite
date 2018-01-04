@@ -27,7 +27,6 @@ app.get('/contact', function (req, res) {
   res.render('layout/contact');
 });
 app.get('/test', function (req, res) {
-
   res.sendfile('public/UserHome.html');
 });
 
@@ -40,6 +39,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.listen(process.env.PORT || 8000, function () {
   console.log('Local host 8000')
 });
+/*db.connect('mongodb://development:one@ds143707.mlab.com:43707/web_deployment', function(err){
+  if (err){
+    console.log('connection failed');
+  }
+  else{
+app.listen(process.env.PORT || 8000, function () {
+  console.log('Local host running on port 8000 :)');
+})
+}
+})*/
 
 
 module.exports = app;

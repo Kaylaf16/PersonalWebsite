@@ -33,6 +33,17 @@ padding-top: 50px;
 .ion-ios-list-outline{
   margin-right: 4px;
 }
+.ion-ios-person-outline{
+  margin-right: 6px;
+  font-size: 35px;
+   color:white;
+
+}
+.ion-ios-email-outline{
+  margin-right: 6px;
+  font-size: 35px;
+   color:white;
+}
 .ion-code-working{
   margin-right: 4px;
 }
