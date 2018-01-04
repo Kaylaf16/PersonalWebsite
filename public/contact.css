@@ -57,6 +57,9 @@ padding-top: 90px;
   font-weight: bold;
   width: 250px;
   border-bottom: 1px solid white;
+  border-top: none;
+  border-left:none;
+  border-right:none;
 color: white;
 opacity: .6;
 }
@@ -80,7 +83,6 @@ opacity: .6;
   font-family: "Avenir Next";
   letter-spacing: 2px;
   font-size: 17px;
-
   font-stretch: expanded;
   border-radius: 0px;
   color:white;
