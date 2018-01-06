@@ -3,10 +3,17 @@ const express = require('express')
 const app = express();
 var path = require('path');
 var React = require('react');
+var nodemailer = require('nodemailer');
 var exphbs = require('express-handlebars');
 const bodyParser = require('body-parser');
 var MongoClient = require('mongodb').MongoClient;
-
+var transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: 'kaylaforddev@gmail.com',
+    pass: 'Runescape1416'
+  }
+});
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -26,8 +33,22 @@ app.get('/contact', function (req, res) {
 
   res.render('layout/contact');
 });
-app.get('/test', function (req, res) {
-  res.sendfile('public/UserHome.html');
+app.get('/mail', function (req, res) {
+
+  var getusername = req.query.name;
+  var getuseremail= req.query.email;
+  var mailOptions = {
+    to: 'kaylaforddev@gmail.com',
+    subject: getusername +' wants to contact you!',
+    text: 'Hi, I would like to contact you, my email is ' + getuseremail
+  };
+  transporter.sendMail(mailOptions, function(error, info){
+  if (error) {
+    console.log(error);
+  } else {
+    console.log('Email sent: ' + info.response);
+  }
+});
 });
 
 

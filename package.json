@@ -25,6 +25,7 @@
     "express3-handlebars": "^0.5.2",
     "jquery": "^3.2.1",
     "mongodb": "^3.0.0-rc0",
+    "nodemailer": "^4.4.1",
     "nodemon": "^1.12.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
