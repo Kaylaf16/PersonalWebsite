@@ -94,16 +94,8 @@ opacity: .6;
   color:white;
   height: 40px;
   width:130px;
+}
 
-
-}
-.btnprimary:hover{
-  background-color: #000000;
-}
-.btnprimary:focus{
-  background-color: #000000;
-  outline: none;
-}
 
 #content{
   display: flex;

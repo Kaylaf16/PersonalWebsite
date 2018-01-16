@@ -19,9 +19,7 @@
 </footer>
 </body>
 <script>
-$("#dropbtn").hover(function(){
-  $("#headerlistul").fadeIn(1000);
-});
+
 
 $("#jumboid").hover(function(){
 $("#jumboid").css("background-color","white");
@@ -33,6 +31,28 @@ $(".resumelink").css("color","black");
   $("#jumboid").css("background-color","transparent");
   $("#resumetext").css("color","white");
   $("#resumetext").css("text-decoration","none");
+});
+
+$("#headerlisthome").hover(function(){
+  $("#headerlisthome").css("border-bottom","2px solid white");
+  $("#headerlistabout").css("border-bottom","none");
+    $("#headerlistcontact").css("border-bottom","none");
+},function(){
+  $("#headerlisthome").css("border-bottom","none");
+});
+$("#headerlistcontact").hover(function(){
+  $("#headerlistcontact").css("border-bottom","2px solid white");
+  $("#headerlisthome").css("border-bottom","none");
+    $("#headerlistabout").css("border-bottom","none");
+},function(){
+  $("#headerlistcontact").css("border-bottom","none");
+});
+$("#headerlistabout").hover(function(){
+  $("#headerlistabout").css("border-bottom","2px solid white");
+  $("#headerlisthome").css("border-bottom","none");
+    $("#headerlistcontact").css("border-bottom","none");
+},function(){
+  $("#headerlistabout").css("border-bottom","none");
 });
 
 

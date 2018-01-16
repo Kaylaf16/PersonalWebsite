@@ -20,8 +20,13 @@
 </footer>
 </body>
 <script>
-$("#dropbtn").hover(function(){
-  $("#headerlistul").fadeIn(1000);
+$(".btnprimary").hover(function(){
+$(".btnprimary").css("background-color","white");
+$(".btnprimary").css("color","black");
+$(".btnprimary").css("font-weight","500");
+},function (){
+  $(".btnprimary").css("background-color","transparent");
+  $(".btnprimary").css("color","white");
 });
 $(document).ready(function(){
     $("#content").ready(function(){
@@ -31,5 +36,28 @@ $(document).ready(function(){
         });
     });
 });
+
+$("#headerlisthome").hover(function(){
+  $("#headerlisthome").css("border-bottom","2px solid white");
+  $("#headerlistabout").css("border-bottom","none");
+    $("#headerlistcontact").css("border-bottom","none");
+},function(){
+  $("#headerlisthome").css("border-bottom","none");
+});
+$("#headerlistcontact").hover(function(){
+  $("#headerlistcontact").css("border-bottom","2px solid white");
+  $("#headerlisthome").css("border-bottom","none");
+    $("#headerlistabout").css("border-bottom","none");
+},function(){
+  $("#headerlistcontact").css("border-bottom","none");
+});
+$("#headerlistabout").hover(function(){
+  $("#headerlistabout").css("border-bottom","2px solid white");
+  $("#headerlisthome").css("border-bottom","none");
+    $("#headerlistcontact").css("border-bottom","none");
+},function(){
+  $("#headerlistabout").css("border-bottom","none");
+});
+
 </script>
 </html>
