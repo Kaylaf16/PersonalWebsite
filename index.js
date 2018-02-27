@@ -8,10 +8,10 @@ var exphbs = require('express-handlebars');
 const bodyParser = require('body-parser');
 var MongoClient = require('mongodb').MongoClient;
 var transporter = nodemailer.createTransport({
-  service: 'gmail',
+  service: '****',
   auth: {
-    user: 'kaylaforddev@gmail.com',
-    pass: 'Runescape1416'
+    user: '****',
+    pass: '***'
   }
 });
 app.use(bodyParser.json());

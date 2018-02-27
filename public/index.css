@@ -53,12 +53,17 @@ background-color:#22313f;
   margin-bottom: 0px;
 overflow: hidden;
 border-top: 3px solid white;
+border-bottom: 3px solid white;
 }
-#bottomfooter{
-  background-color:#22313f;
-    height:100px;
+#innerbottom1{
+
+}
+#bottomfooter1{
+  background-color:#212121;
+    height:150px;
   border: none;
 }
+
 #footerheading{
 color:white;
 font-size: 27px;
@@ -130,6 +135,15 @@ padding-left: 19;
 margin-right: 60px;
 
 }
+#bottomfooter2{
+  background-color:#22313f;
+
+    height:150px;
+  border: none;
+  padding: 0;
+  margin-top: 0px;
+}
+
 i.ion-navicon{
   font-size: 54px;
 }
@@ -137,8 +151,8 @@ i.ion-ios-glasses-outline{
   font-size: 84px;
 }
 i.ion-social-google{
-  margin-left: 15px;
-  font-size: 54px;
+  margin-left: 5px;
+  font-size: 34px;
 }
 #header{
 background-color: #212121;
@@ -161,11 +175,11 @@ text-align: center;
 
 }
 i.ion-social-linkedin{
-  font-size: 54px;
+  font-size: 34px;
   margin-right: 15px;
 }
 i.ion-social-github{
-  font-size: 54px;
+  font-size: 34px;
   margin-right: 15px;
 }
 #midsection{
@@ -203,12 +217,25 @@ display: block;
 #footerheading1{
 color:white;
 font-size: 3.3vh;
-font-size: 45px;
+font-size: 20px;
 font-family: "Avenir Next";
-font-weight: 200;
+font-weight: 300;
 padding-bottom: 0;
 margin-bottom: 0;
-text-align: center;
+margin-top: 30px;
+margin-left: 50px;
+}
+#footerheading3{
+color:white;
+font-size: 3.3vh;
+font-size: 18px;
+font-family: "Avenir Next";
+font-weight: 300;
+padding-bottom: 0;
+padding:0;
+margin-bottom: 0;
+margin-top: 0px;
+margin-left: 50px;
 }
 #footerheading2{
 color:white;
@@ -305,12 +332,9 @@ padding-bottom: 15px;
       margin-bottom: 0px;
     overflow: hidden;
     border-top: 3px solid white;
+    border-bottom: 3px solid white;
     }
-    #bottomfooter{
-      background-color:#22313f;
-        height:100px;
-      border: none;
-    }
+
     #headerlisthome{
     padding: 10px;
       margin-left: 20px;
@@ -388,8 +412,8 @@ padding-bottom: 15px;
       font-size: 84px;
     }
     i.ion-social-google{
-      margin-left: 15px;
-      font-size: 54px;
+      margin-left: 5px;
+        font-size: 34px;
     }
     #header{
     background-color: #212121;
@@ -412,11 +436,11 @@ padding-bottom: 15px;
 
     }
     i.ion-social-linkedin{
-      font-size: 54px;
+        font-size: 34px;
       margin-right: 15px;
     }
     i.ion-social-github{
-      font-size: 54px;
+        font-size: 34px;
       margin-right: 15px;
     }
     #midsection{
@@ -454,12 +478,13 @@ padding-bottom: 15px;
     #footerheading1{
     color:white;
     font-size: 3.3vh;
-    font-size: 45px;
+    font-size: 18px;
     font-family: "Avenir Next";
-    font-weight: 200;
+    font-weight: 300;
     padding-bottom: 0;
     margin-bottom: 0;
-    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
     }
     #footerheading2{
     color:white;
@@ -488,6 +513,20 @@ padding-bottom: 15px;
     text-align: center;
     margin-bottom: 15px;
     padding-bottom: 15px;
+    }
+    #bottomfooter1{
+      background-color:#212121;
+        height:150px;
+      border: none;
+      padding: 0;
+      margin-top: 0px;
+    }
+    #bottomfooter2{
+      background-color:#22313f;
+        height:150px;
+      border: none;
+      padding: 0;
+      margin-top: 0px;
     }
     #bottominfo{
     margin-left: auto;
